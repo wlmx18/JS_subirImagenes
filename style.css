@@ -1,0 +1,30 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c2461;
+}
+.card {
+    border: 1px solid #eee;
+    height: 30rem;
+    width: 20rem;
+    position: relative;
+}
+
+.card-footer {
+    position:absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #ddd;
+    padding: 5px 0;
+}

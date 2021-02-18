@@ -12,6 +12,15 @@ html, body {
     align-items: center;
     background-color: #0c2461;
 }
+
+.container img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
 .card {
     border: 1px solid #eee;
     height: 30rem;
